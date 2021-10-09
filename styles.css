@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 80px;
+  color: white;
+  font-family: "Lobster", cursive;
+  background-color: #04AA6D;
+}
+
+section {
+  color: black;
+  min-height: calc(100vh - 280px);
+  padding: 100px;
+  font-family: "Lobster", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section h1 {
+  font-size: 70px;
+  margin: 0;
+}
+
+section p {
+  font-size: 20px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section img {
+  height: 400px;
+  object-fit: contain;
+}
+
+section button{
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  background-color: #04AA6D;
+  border: none;
+  box-shadow: 2px 2px 5px black;
+  margin: 10px;
+}
+
+.navigation-list {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  text-decoration: none;
+  font-size: large;
+  /* height: 100%; */
+}
+
+.navigation-list li {
+  display: inline-block;
+  /* height: 100%; */
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-top: 30px; */
+  margin: 0;
+}
+
+.navigation-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation-list li::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0;
+  margin-top: 5px;
+  background: white;
+  transition: all 0.5s;
+}
+
+.navigation-list li:hover::after {
+  width: 100%;
+}
+
+.navigation-list li a:hover {
+  /*background-color: #04aa6d;*/
+  color: white;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  /* flex-wrap: wrap; */
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #3c0c00;
+  font-family: "Roboto";
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  border-radius: 10px;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+
+.logo {
+  margin-bottom: 50px;
+}
