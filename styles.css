@@ -48,7 +48,7 @@ section img {
   object-fit: contain;
 }
 
-section button {
+section .registerbtn, button {
   height: 50px;
   width: 200px;
   border-radius: 20px;
@@ -139,4 +139,9 @@ footer a {
 
 .logo {
   margin-bottom: 50px;
+}
+
+.container label{
+  margin-top: 20px;
+
 }

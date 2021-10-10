@@ -26,3 +26,7 @@ footer.innerHTML = `
     </div>
   </div>
 </div>`;
+
+function dashboard() {
+  window.loacation.href = "sellerDashboard.html";
+}
