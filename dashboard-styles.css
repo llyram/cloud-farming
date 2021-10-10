@@ -29,13 +29,10 @@
     margin: 20px 40px 20px 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     background-color: rgba(95, 95, 95, 0.089);
     box-shadow: 4px 4px 5px 1px rgba(95, 95, 95, 0.274);
-}
-
-.add-land {
-    justify-content: center;
 }
 
 .add-land i{
