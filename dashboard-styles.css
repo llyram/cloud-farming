@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.dashboard {
+    margin: 40px;
+}
+
+.dashboard h1{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 95, 95);
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.dashboard h2{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(95, 95, 95);
+    font-size: 40px;
+}
+
+
+
+.land {
+    height: 300px;
+    width: 200px;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 20px;
+    margin: 20px 40px 20px 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(95, 95, 95, 0.089);
+    box-shadow: 4px 4px 5px 1px rgba(95, 95, 95, 0.274);
+}
+
+.add-land {
+    justify-content: center;
+}
+
+.add-land i{
+    color: rgb(95, 95, 95);
+}

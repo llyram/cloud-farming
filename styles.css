@@ -14,7 +14,7 @@ header {
   min-height: 80px;
   color: white;
   font-family: "Lobster", cursive;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
 
 section {
@@ -48,13 +48,13 @@ section img {
   object-fit: contain;
 }
 
-section button{
+section button {
   height: 50px;
   width: 200px;
   border-radius: 20px;
   color: white;
   font-size: 20px;
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   border: none;
   box-shadow: 2px 2px 5px black;
   margin: 10px;
@@ -136,8 +136,6 @@ footer a {
   padding: 5px;
   margin: 5px;
 }
-
-
 
 .logo {
   margin-bottom: 50px;
