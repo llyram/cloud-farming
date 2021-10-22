@@ -17,6 +17,21 @@ header {
   background-color: #04aa6d;
 }
 
+a:link
+{
+    color:#FFFFFF;
+}
+
+a:visited
+{
+    color:#FFFFFF;
+}
+
+a:hover 
+{
+    color:#FFFFFF;
+}
+
 section {
   color: black;
   min-height: calc(100vh - 280px);
