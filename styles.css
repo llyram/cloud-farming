@@ -177,7 +177,7 @@ footer a {
   width: 250px;
   box-shadow: 2px 2px 2px 2px black;
   background-color: azure;
-
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -206,7 +206,7 @@ h3 {
   margin: 10px;
 }
 .contact-button {
-  height: 30px;
+  height: 45px;
   width: 180px;
   border-radius: 10px;
   color: black;
